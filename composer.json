@@ -1,0 +1,8 @@
+{
+    "name": "neji0924/image",
+    "autoload": {
+        "psr-4": {
+            "Neji0924\\Image\\": "src/app"
+        }
+    }
+}
