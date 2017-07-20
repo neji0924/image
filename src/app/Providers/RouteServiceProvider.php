@@ -25,6 +25,10 @@ class RouteServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
+        Route::bind('realname', function ($realname) {
+            return Image::where('realname', $realname)->firstOrFail();
+        });
+        
         parent::boot();
     }
 

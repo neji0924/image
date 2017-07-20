@@ -2,7 +2,6 @@
 
 namespace Neji0924\Image\Providers;
 
-use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider
